@@ -16,12 +16,12 @@ class UserCredentialSeeder extends Seeder
         // Define the data for user credentials
         $credentialsData = [
             [
-                'user_id' => 2,
+                'user_id' => 1,
                 'username' => 'admin',
                 'password' => bcrypt('adminpassword'),
             ],
             [
-                'user_id' => 3,
+                'user_id' => 2,
                 'username' => 'cashier',
                 'password' => bcrypt('cashierpassword'),
             ],
